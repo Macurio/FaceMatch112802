@@ -1,0 +1,13 @@
+c:\users\administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\bin\Debug\FaceMatch112802.exe.config
+c:\users\administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\bin\Debug\FaceMatch112802.exe
+c:\users\administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\bin\Debug\FaceMatch112802.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\bin\Debug\AipSdk.dll
+c:\users\administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\bin\Debug\Newtonsoft.Json.dll
+c:\users\administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\bin\Debug\AipSdk.xml
+c:\users\administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\bin\Debug\Newtonsoft.Json.xml
+c:\users\administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\obj\Debug\FaceMatch112802.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\obj\Debug\FaceMatch112802.Form1.resources
+c:\users\administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\obj\Debug\FaceMatch112802.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\obj\Debug\FaceMatch112802.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\obj\Debug\FaceMatch112802.exe
+c:\users\administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\obj\Debug\FaceMatch112802.pdb
