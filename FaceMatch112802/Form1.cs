@@ -99,7 +99,7 @@ namespace FaceMatch112802
         private void button9_Click(object sender, EventArgs e)
         {
             read_filename1();
-            new Form3().Show();
+            new Form3().ShowDialog();
             Program.FaceVerify();
             textBox1.Text = Program.face_verify;
         }

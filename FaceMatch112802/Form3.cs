@@ -21,6 +21,7 @@ namespace FaceMatch112802
         private void button1_Click(object sender, EventArgs e)
         {
             Form3.face_verify_uid = textBox1.Text;
+            this.Close();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
