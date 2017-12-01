@@ -43,6 +43,7 @@
             this.button11 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.button12 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -184,11 +185,22 @@
             this.label4.Text = "人脸识别需要输入所属组名，用于计算指定组内用户，与上传图像中人脸的相似度";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(373, 383);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 23);
+            this.button12.TabIndex = 19;
+            this.button12.Text = "xaml";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(727, 476);
+            this.Controls.Add(this.button12);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button11);
@@ -228,6 +240,7 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button12;
     }
 }
 

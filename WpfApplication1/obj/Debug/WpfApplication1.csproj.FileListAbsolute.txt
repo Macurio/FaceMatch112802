@@ -1,0 +1,14 @@
+C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\bin\Debug\WPFMediaKit.dll
+C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\obj\Debug\WpfApplication1.pdb

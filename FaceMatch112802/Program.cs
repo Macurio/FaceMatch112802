@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using WPFMediaKit.DirectShow.Controls;
 
 using Baidu.Aip.Face;
 
@@ -137,3 +138,5 @@ namespace FaceMatch112802
 //图片和摄像头人脸来源质量检测信息反馈
 //基本的体验优化 将每次的结果输入到txt文件或数据库中在本地保存
 //需要打开文件未打开取消或关闭文件打开界面 输入组名等未输入或关闭界面 输入错误等错误的处理
+
+//

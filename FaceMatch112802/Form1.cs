@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using WpfApplication1;
+
 namespace FaceMatch112802
 {
     public partial class Form1 : Form
@@ -150,6 +152,12 @@ namespace FaceMatch112802
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            WpfApplication1.MainWindow wpfwindow = new WpfApplication1.MainWindow();
+            wpfwindow.ShowDialog();
         }
     }
 }
