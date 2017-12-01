@@ -41,6 +41,8 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -58,7 +60,7 @@
             this.textBox1.Location = new System.Drawing.Point(39, 48);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(492, 378);
+            this.textBox1.Size = new System.Drawing.Size(239, 378);
             this.textBox1.TabIndex = 1;
             // 
             // button2
@@ -67,23 +69,23 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(156, 23);
             this.button2.TabIndex = 3;
-            this.button2.Text = "注册";
+            this.button2.Text = "人脸注册";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(549, 77);
+            this.button3.Location = new System.Drawing.Point(549, 135);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(156, 23);
             this.button3.TabIndex = 4;
-            this.button3.Text = "识别";
+            this.button3.Text = "人脸识别";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(549, 106);
+            this.button6.Location = new System.Drawing.Point(549, 164);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(156, 23);
             this.button6.TabIndex = 7;
@@ -93,7 +95,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(549, 193);
+            this.button7.Location = new System.Drawing.Point(549, 251);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(156, 23);
             this.button7.TabIndex = 8;
@@ -103,7 +105,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(549, 222);
+            this.button8.Location = new System.Drawing.Point(549, 280);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(156, 23);
             this.button8.TabIndex = 9;
@@ -113,7 +115,7 @@
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(549, 251);
+            this.button9.Location = new System.Drawing.Point(549, 77);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(156, 23);
             this.button9.TabIndex = 10;
@@ -127,7 +129,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(549, 135);
+            this.button4.Location = new System.Drawing.Point(549, 193);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(156, 23);
             this.button4.TabIndex = 11;
@@ -137,7 +139,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(549, 336);
+            this.button5.Location = new System.Drawing.Point(549, 309);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(156, 23);
             this.button5.TabIndex = 12;
@@ -147,7 +149,7 @@
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(549, 164);
+            this.button10.Location = new System.Drawing.Point(549, 222);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(156, 23);
             this.button10.TabIndex = 13;
@@ -157,7 +159,7 @@
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(549, 281);
+            this.button11.Location = new System.Drawing.Point(549, 106);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(156, 23);
             this.button11.TabIndex = 14;
@@ -165,11 +167,30 @@
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
+            // label3
+            // 
+            this.label3.Location = new System.Drawing.Point(334, 48);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(149, 40);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "人脸认证需要指定用户id和所属组名，用于识别上传的图片是否为指定用户";
+            // 
+            // label4
+            // 
+            this.label4.Location = new System.Drawing.Point(334, 111);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(149, 38);
+            this.label4.TabIndex = 18;
+            this.label4.Text = "人脸识别需要输入所属组名，用于计算指定组内用户，与上传图像中人脸的相似度";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(727, 476);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button5);
@@ -205,6 +226,8 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 

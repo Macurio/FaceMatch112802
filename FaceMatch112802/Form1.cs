@@ -141,5 +141,15 @@ namespace FaceMatch112802
             Program.FaceMatch();
             textBox1.Text = Program.face_match;
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -69,7 +69,8 @@ namespace FaceMatch112802
             var client = new Baidu.Aip.Face.Face(API_KEY, SECRET_KEY);
             var image1 = File.ReadAllBytes(Form1.filename1);
             //,1,1什么作用？
-            var result = client.User.Identify(image1, new[] { face_identify_gid }, 1, 1)["result"][0]["scores"][0];
+            var result = client.User.Identify(image1, new[] { face_identify_gid }, 1, 1);
+            //var result = client.User.Identify(image1, new[] { "star" }, 1, 1);
             FaceIdentify_scores = result.ToString();
         }
         //人脸更新
@@ -135,3 +136,4 @@ namespace FaceMatch112802
 //调用摄像头采集人脸
 //图片和摄像头人脸来源质量检测信息反馈
 //基本的体验优化 将每次的结果输入到txt文件或数据库中在本地保存
+//需要打开文件未打开取消或关闭文件打开界面 输入组名等未输入或关闭界面 输入错误等错误的处理
