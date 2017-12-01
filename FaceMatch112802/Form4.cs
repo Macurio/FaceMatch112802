@@ -10,22 +10,28 @@ using System.Windows.Forms;
 
 namespace FaceMatch112802
 {
-    public partial class Form3 : Form
+    public partial class Form4 : Form
     {
-        //public static string face_verify_uid,face_register_uid,face_register_uifo,face_register_gid;
-        public static string str;
-        public Form3()
+        public static string str1, str2,str3;
+        public Form4()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            str = textBox1.Text;
+            str1 = textBox1.Text;
+            str2 = textBox2.Text;
+            str3 = textBox3.Text;
             this.Close();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
         {
 
         }

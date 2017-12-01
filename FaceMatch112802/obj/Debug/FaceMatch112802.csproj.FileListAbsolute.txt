@@ -12,3 +12,5 @@ c:\users\administrator\documents\visual studio 2013\Projects\FaceMatch112802\Fac
 c:\users\administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\obj\Debug\FaceMatch112802.exe
 c:\users\administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\obj\Debug\FaceMatch112802.pdb
 C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\obj\Debug\FaceMatch112802.Form3.resources
+C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\obj\Debug\FaceMatch112802.Form4.resources
+C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\obj\Debug\FaceMatch112802.Form5.resources

@@ -61,6 +61,7 @@ namespace FaceMatch112802
         private void button2_Click(object sender, EventArgs e)
         {
             read_filename1();
+            new Form4().ShowDialog();
             Program.FaceRegister();
             textBox1.Text = "log_id:" + Program.log_id;
             
@@ -69,6 +70,7 @@ namespace FaceMatch112802
         private void button3_Click(object sender, EventArgs e)
         {
             read_filename1();
+            new Form3().ShowDialog();
             Program.FaceIdentify();
             textBox1.Text = "FaceIdentify_scores=" + Program.FaceIdentify_scores;
         }
@@ -80,6 +82,7 @@ namespace FaceMatch112802
 
         private void button6_Click(object sender, EventArgs e)
         {
+            new Form3().ShowDialog();
             Program.UserInfo();
             textBox1.Text = Program.user_ifo;
         }
@@ -92,6 +95,7 @@ namespace FaceMatch112802
 
         private void button8_Click(object sender, EventArgs e)
         {
+            new Form3().ShowDialog();
             Program.GroupUsers();
             textBox1.Text = Program.group_users;
         }
@@ -99,7 +103,7 @@ namespace FaceMatch112802
         private void button9_Click(object sender, EventArgs e)
         {
             read_filename1();
-            new Form3().ShowDialog();
+            new Form5().ShowDialog();
             Program.FaceVerify();
             textBox1.Text = Program.face_verify;
         }
@@ -107,6 +111,35 @@ namespace FaceMatch112802
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new Form5().ShowDialog();
+            Program.FaceDelete();
+            textBox1.Text = Program.face_delete;
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            read_filename1();
+            new Form4().ShowDialog();
+            Program.FaceUpdate();
+            
+            textBox1.Text = Program.face_update;
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            read_filename1();
+            read_filename2();
+            Program.FaceMatch();
+            textBox1.Text = Program.face_match;
         }
     }
 }
