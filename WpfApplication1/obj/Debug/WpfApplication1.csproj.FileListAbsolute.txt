@@ -12,3 +12,7 @@ C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\Wpf
 C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
 C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\obj\Debug\WpfApplication1.exe
 C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\FaceMatch112802\WpfApplication1\bin\Debug\AipSdk.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\FaceMatch112802\WpfApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\FaceMatch112802\WpfApplication1\bin\Debug\AipSdk.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\FaceMatch112802\WpfApplication1\bin\Debug\Newtonsoft.Json.xml

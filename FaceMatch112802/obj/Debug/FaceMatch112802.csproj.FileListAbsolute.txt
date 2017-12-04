@@ -18,3 +18,4 @@ C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\Fac
 C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\bin\Debug\WPFMediaKit.dll
 C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\bin\Debug\WpfApplication1.exe
 C:\Users\Administrator\documents\visual studio 2013\Projects\FaceMatch112802\FaceMatch112802\bin\Debug\WpfApplication1.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\FaceMatch112802\FaceMatch112802\obj\Debug\FaceMatch112802.Form_camera.resources

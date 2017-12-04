@@ -25,7 +25,8 @@ namespace FaceMatch112802
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1()); 
         }
-        public static double age,beauty;
+        public static string text;
+        //public static double age,beauty;
         public static string log_id, FaceIdentify_scores, user_ifo, group_list, group_users, face_verify, face_delete, face_update, face_match;
         public static string face_verify_uid, face_register_uid, face_register_uifo, face_register_gid, face_delete_uid, face_delete_gid,
             group_users_gid, user_ifo_uid, face_identify_gid, face_verify_gid,face_update_uid,face_update_gid,face_update_uifo;
@@ -42,15 +43,13 @@ namespace FaceMatch112802
         public static void FaceDetect()
         {
             var client = new Baidu.Aip.Face.Face(API_KEY, SECRET_KEY);
-            //var image = File.ReadAllBytes("C:/Users/Administrator/Pictures/yangmi1.png");
             var image = File.ReadAllBytes(Form1.filename1);
             var options = new Dictionary<string, object>(){
-                //为什么face_fields参数采取这种形式实例化呢？beauty age应该是face_fields的实例化的值
                 {"face_fields","beauty,age"}
             };
-            //第一级和第二季json数据需要以[0]分隔开才行//client.FaceMatch(images)已经是一个Newtonsoft.Json.Linq.JObject
-            age = double.Parse(client.FaceDetect(image, options)["result"][0]["age"].ToString());
-            beauty = double.Parse(client.FaceDetect(image, options)["result"][0]["beauty"].ToString());
+            var result = client.FaceDetect(image, options)["result"];
+            text = result.ToString();
+            MessageBox.Show(text);
         }
         //人脸注册
         public static void FaceRegister()
@@ -71,7 +70,6 @@ namespace FaceMatch112802
             var image1 = File.ReadAllBytes(Form1.filename1);
             //,1,1什么作用？
             var result = client.User.Identify(image1, new[] { face_identify_gid }, 1, 1);
-            //var result = client.User.Identify(image1, new[] { "star" }, 1, 1);
             FaceIdentify_scores = result.ToString();
         }
         //人脸更新
@@ -82,7 +80,6 @@ namespace FaceMatch112802
             face_update_uifo = Form4.str2;
             var client = new Baidu.Aip.Face.Face(API_KEY, SECRET_KEY);
             var image1 = File.ReadAllBytes(Form1.filename1);
-            //var result = client.User.Update(image1, "yangmi", "star", "actress");
             var result = client.User.Update(image1, face_update_uid, face_update_gid, face_update_uifo);
             face_update = result.ToString();
         }
@@ -124,6 +121,7 @@ namespace FaceMatch112802
         public static void FaceVerify()
         {
             var client = new Baidu.Aip.Face.Face(API_KEY, SECRET_KEY);
+            //MessageBox.Show(Form1.filename1);
             var image1 = File.ReadAllBytes(Form1.filename1);
 
             face_verify_uid = Form5.str1;

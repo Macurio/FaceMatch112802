@@ -1,20 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using WPFMediaKit.DirectShow.Controls;
-using System.IO;
-using System.Xaml;
+using Baidu.Aip.Face;
+using System.Collections.Generic;
+
 
 namespace WpfApplication1
 {
@@ -48,7 +40,17 @@ namespace WpfApplication1
         private void btnCapture_Click(object sender, RoutedEventArgs e)
         {
             vce.Play();
-            SaveControlImage(b, "b.png");
+            SaveControlImage(b, "C:/Users/Administrator/b.png");
+            vce.Stop();
+            //var client = new Baidu.Aip.Face.Face("bHnKHuGkpQEaSU5k68F5MGen", "EojiKc7KgHF6FySfgp9lZYPynjAonRp6");
+            //var image = File.ReadAllBytes("C:/Users/Administrator/b.png");
+            //var options = new Dictionary<string, object>(){
+            //    {"face_fields","beauty,age"}
+            //};
+            //var result = client.FaceDetect(image, options)["result"];
+            //Title = result.ToString();
+            //MessageBox.Show(Title);
+            this.Close();
         }
     }
 }

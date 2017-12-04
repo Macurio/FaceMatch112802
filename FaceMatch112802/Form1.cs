@@ -55,9 +55,6 @@ namespace FaceMatch112802
 
         private void button1_Click(object sender, EventArgs e)
         {
-            read_filename1();
-            Program.FaceDetect();
-            textBox1.Text = "age:"+Program.age.ToString() + "\nbeauty:"+Program.beauty.ToString()+"\n(beauty满分100，分数越高越美)";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -138,8 +135,28 @@ namespace FaceMatch112802
 
         private void button11_Click(object sender, EventArgs e)
         {
-            read_filename1();
-            read_filename2();
+            new Form_camera().ShowDialog();
+            if (!Form_camera.is_camera)
+            {
+                read_filename1();
+            }
+            else
+            {
+                new MainWindow().ShowDialog();
+                filename1 = "b.png";
+            }
+            new Form_camera().ShowDialog();
+            if (!Form_camera.is_camera)
+            {
+                read_filename2();
+            }
+            else
+            {
+                new MainWindow().ShowDialog();
+                filename2 = "b.png";
+            }
+            //read_filename1();
+            //read_filename2();
             Program.FaceMatch();
             textBox1.Text = Program.face_match;
         }
@@ -158,6 +175,29 @@ namespace FaceMatch112802
         {
             WpfApplication1.MainWindow wpfwindow = new WpfApplication1.MainWindow();
             wpfwindow.ShowDialog();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button13_Click_1(object sender, EventArgs e)
+        {
+            new Form_camera().ShowDialog();
+            if (!Form_camera.is_camera)
+            {
+                read_filename1();
+                Program.FaceDetect();
+            }
+            else
+            {
+                new MainWindow().ShowDialog();
+                filename1 = "C:/Users/Administrator/b.png";
+            }
+            Program.FaceDetect();
+            textBox1.Text = Program.text;
+            MessageBox.Show(filename1);
         }
     }
 }
